@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Student Manager",
+    "slug": "student-manager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F4F7FB"
+      },
+      "package": "com.anonymous.studentmanager"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Student Manager to access your photos.",
+          "microphonePermission": false
+        }
+      ]
+    ]
+  }
+}
